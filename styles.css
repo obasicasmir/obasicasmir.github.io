@@ -111,7 +111,7 @@ button { font: inherit; }
 
 .hero-visual { position: relative; justify-self: end; width: min(100%, 430px); }
 .portrait-frame { position: relative; width: 360px; margin-left: auto; padding: 16px; border: 1px solid rgba(255,255,255,.2); }
-.portrait-frame img { position: relative; z-index: 2; width: 100%; aspect-ratio: 1; object-fit: cover; filter: saturate(.78) contrast(1.05); }
+.portrait-frame img { position: relative; z-index: 2; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: 100% 50%; filter: saturate(.78) contrast(1.05); }
 .portrait-halo {
   position: absolute; z-index: 1; width: 220px; height: 220px; left: -44px; bottom: -44px;
   border-radius: 50%; background: rgba(255,123,84,.88); filter: blur(0); opacity: .85;
